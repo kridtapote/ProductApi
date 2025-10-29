@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project-baiwa\\ProductApi\\ProductApi\\ProductApi.csproj": {}
+    "F:\\Project-baiwa\\ProductApi\\ProductApi.csproj": {}
   },
   "projects": {
-    "F:\\Project-baiwa\\ProductApi\\ProductApi\\ProductApi.csproj": {
+    "F:\\Project-baiwa\\ProductApi\\ProductApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project-baiwa\\ProductApi\\ProductApi\\ProductApi.csproj",
+        "projectUniqueName": "F:\\Project-baiwa\\ProductApi\\ProductApi.csproj",
         "projectName": "ProductApi",
-        "projectPath": "F:\\Project-baiwa\\ProductApi\\ProductApi\\ProductApi.csproj",
+        "projectPath": "F:\\Project-baiwa\\ProductApi\\ProductApi.csproj",
         "packagesPath": "C:\\Users\\K\\.nuget\\packages\\",
-        "outputPath": "F:\\Project-baiwa\\ProductApi\\ProductApi\\obj\\",
+        "outputPath": "F:\\Project-baiwa\\ProductApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\K\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,9 +44,39 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
